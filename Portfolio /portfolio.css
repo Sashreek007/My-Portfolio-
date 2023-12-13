@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('wp4870590.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1000vh;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+nav{
+    background-color: rgba(0, 0, 0, 0.524);
+    height: 100px;
+    width: 100%ff;
+    align-content: baseline;
+}
+label.Shrek{
+    color: white;
+    font-size: 2rem;
+    line-height: 100px;
+    padding: 0 50px;
+    font-weight: bold;
+}
+nav ul{
+    float: right  ;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 100px;
+    margin: 0 5px;
+    padding-right: 10px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    font-size: 25px;
+    background: rgba(0, 0, 0, 0.225);
+}
+/* div.header{
+    position: sticky;
+    top: 0;
+} */
+.section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    margin: 150px auto;
+    width: 70%;
+}
+.sash{
+    max-width:1000px;
+    float: left;
+    border-radius: 10px;
+    border: 3px solid white;
+    margin-right: 15px;
+}
+
+.text-box{
+    color: white;
+    
+}
+.text-box h1{
+    font-size: 50px;
+}
+.text-box p{
+    font-size: 25px;
+}
+.matter{
+    padding-left: 10px;
+}
+.h1skills{
+    margin-left: 200px;
+    font-size: 50px;
+    color: white;
+    margin-bottom: 150px;
+}
+figure{
+    margin-left: 250px;
+  
+    
+}
+figure img{
+    width: 150px;
+    height: 150px;
+}
+.skills{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
